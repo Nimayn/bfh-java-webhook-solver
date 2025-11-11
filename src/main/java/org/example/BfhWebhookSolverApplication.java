@@ -34,9 +34,9 @@ public class BfhWebhookSolverApplication implements CommandLineRunner {
 
             // 1) Prepare the generateWebhook request body
             Map<String, String> req = new HashMap<>();
-            req.put("name", "John Doe");
-            req.put("regNo", "REG12348"); // change to your reg no (last two digits decide question)
-            req.put("email", "john@example.com");
+            req.put("name", "Nimay N");
+            req.put("regNo", "PES2UG23CS816"); // change to your reg no (last two digits decide question)
+            req.put("email", "nimayn2004@gmail.com");
 
             String generateUrl = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
             HttpHeaders headers = new HttpHeaders();
